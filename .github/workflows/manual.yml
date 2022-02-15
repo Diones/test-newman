@@ -25,7 +25,7 @@ jobs:
       uses: anthonyvscode/newman-action@v1
       with:
         collection: testgoogle.postman_collection.json
-        reporters: cli
+        reporters: cli,htmlextra
 
     - name: Output summary to console
       run: echo ${{ steps.run-newman.outputs.summary }}
