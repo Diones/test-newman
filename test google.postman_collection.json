@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "3d528872-832b-41f7-a222-d1cf50daaa88",
+		"name": "test google",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get google",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://google.com",
+					"protocol": "http",
+					"host": [
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
