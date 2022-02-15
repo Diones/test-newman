@@ -19,6 +19,9 @@ jobs:
     # Runs a single command using the runners shell
     - name: Checkout
       uses: actions/checkout@v1
+    
+    - name: Install htmlextra
+      run: npm install -g newman-reporter-htmlextra
 
     - name: Run API Tests
       id: run-newman
